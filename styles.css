@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 237, 237);
+}
+
+#bg-image{
+    background-image: url(".//Images/clock.jpg");
+    height: 100vh;
+    width: 32%;
+    background-size: cover;
+    background-position-x: 40%;
+}
+
+#container{
+    width: 25%;
+    background-color: #fff;
+    margin-left: 50%;
+    height: 60vh;
+    padding: 35px;
+    margin-top: -40%;
+}
+
+#page-header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 170%;
+}
+
+.input-style, #page-header {
+    display: block;
+}
+
+.input-style{
+    padding: 13px;
+    width: 85%;
+    margin: 8px;
+    background-color: #efefef;
+    border: none;
+}
+
+#lb-check{
+    display: block;
+    float: left;
+    margin-top: 9%;
+}
+
+#txt-button{
+    display: block;
+    float: right;
+    margin-right: 7%;
+    margin-top: 9%;
+}
+
+#infocontainer{
+    display: block;
+    height: 50vh;
+}
+
+#btn-login{
+    display: block;
+    width: 87%;
+    background-color:orangered;
+    padding: 3%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 25%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#lb-check{
+    accent-color: orange;
+}
